@@ -1,0 +1,28 @@
+@font-face{
+	font-family:'eta-amar-bf';
+	src:url('font/Mina-Bold.ttf');
+}
+h1{
+	font-size:45px
+}
+.df{
+}
+.of{
+	font-family:'arial',sans-sarif;
+}
+.gf{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color:tomato;
+
+}
+.bf{
+	font-family: 'eta-amar-bf', sans-serif;
+	font-weight:400
+}
+i{
+	background:red;
+	color:#fff;
+	padding:25px;
+	font-size:25px;
+}

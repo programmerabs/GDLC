@@ -1,0 +1,13 @@
+.box-er-bap{
+	width:50%;
+	max-height:400px;
+	background-color:yellow;
+}
+.box-er-bacca{
+	width:80%;
+	background:green;
+}
+.sub-bacca{
+	width:90%;
+	background:orange;
+}
