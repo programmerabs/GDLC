@@ -1,0 +1,25 @@
+table{
+	width:50%;
+	margin:0 auto;
+}
+table,
+td,
+th{
+	border:2px solid red;
+	border-collapse:collapse;
+}
+th,td{
+	padding:20px 30px;
+}
+thead{
+	background:red;
+}
+tfoot{
+	background:yellow;
+}
+td:hover{
+	background:green;
+}
+td:nth-child(odd){
+	background:orange;
+}

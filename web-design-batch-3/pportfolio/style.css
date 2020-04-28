@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+
+}
+
+
+
+/*==============
+HEADER STYLE
+==============*/
+header{
+	background:#fff;
+	box-shadow:3px 5px 7px #ddd;
+	overflow:hidden;
+	
+}
+header .logo{
+	width:100%;
+	padding:10px 20px;
+}
+header .logo img{
+	width:120px;
+	height:60px;
+}
+header  ul {
+	list-style:none;
+}
+header ul li{
+	float:left;
+}
+header ul li a{
+	text-decoration:none;
+	display:block;
+	padding:28px 20px;
+	font-size:23px;
+	color:#03a9f4;
+	
+}
+header ul li a:hover{
+	transition:0.3s ease;
+	background:#03a9f4;
+	color:#fff;
+}
+
+
+#hero-area{
+	padding:185px 20px;
+	background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4568dc, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.hero-text{
+	width:100%;
+}
+.hero-text h2{
+	font-size:55px;
+	font-weight:800;
+	color:#fff;
+	
+}
+.hero-text p{
+	color:#fff;
+	font-weight:300;
+	font-style:italic;
+	margin:22px 0px;
+}
+.hero-text .hero-btn{
+	border:3px solid transparent;
+	font-size:20px;
+	padding:15px 20px;
+	font-weight:500;
+	border-radius:25px;
+	background-color:#fff;
+	color:#03a9f4;
+	cursor:pointer;
+	text-transform:uppercase;
+	
+}
+.hero-text .hero-btn:hover{
+	border:3px solid black;
+	color:black;
+	transition:0.5s ease;
+}

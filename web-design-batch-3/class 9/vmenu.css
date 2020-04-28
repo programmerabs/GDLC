@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul {
+    list-style: none;
+    width: 300px;
+    background: purple;
+	min-height:100%;
+	overflow:hidden;
+}
+ul li {
+    border-bottom: 0.5px solid #000;
+}
+ul li:last-child{
+	border:none;
+}
+ul li a {
+    display: block;
+    background: yellowgreen;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+ul li a:hover{
+	background:black;
+}
